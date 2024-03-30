@@ -252,7 +252,7 @@ twitch-videoad.js text/javascript
                         adBlockDiv = document.createElement('div');
                         adBlockDiv.className = 'adblock-overlay';
                         adBlockDiv.innerHTML = `
-                        <div class="player-adblock-notice" style="color: #ffffff; background-color: #000000; position: absolute; top: 8px; left: 8px; border-radius: 8px; padding: 10px 20px;">
+                        <div class="player-adblock-notice" style="color: #ffffff; background-color: #772CE8; font-weight: 600; font-size: 1.3rem; position: absolute; top: 8px; left: 8px; border-radius: 0.4rem; padding: 5px 10px;">
                             <p></p>
                         </div>
                         `;
