@@ -141,7 +141,7 @@ twitch-videoad.js text/javascript
                     if (adBlockDiv == null) {
                         adBlockDiv = getAdBlockDiv();
                     }
-                    adBlockDiv.P.textContent = 'Blocking ads';
+                    adBlockDiv.P.textContent = 'Bloqueando anuncio!';
                     adBlockDiv.style.display = 'block';
                 } else if (e.data.key == 'HideAdBlockBanner') {
                     if (adBlockDiv == null) {
@@ -252,7 +252,7 @@ twitch-videoad.js text/javascript
                         adBlockDiv = document.createElement('div');
                         adBlockDiv.className = 'adblock-overlay';
                         adBlockDiv.innerHTML = `
-                        <div class="player-adblock-notice" style="color: white; background-color: #000000; position: absolute; top: 5px; left: 5px; border-radius: 8px; padding: 5px;">
+                        <div class="player-adblock-notice" style="color: #ffffff; background-color: #000000; position: absolute; top: 8px; left: 8px; border-radius: 8px; padding: 10px 20px;">
                             <p></p>
                         </div>
                         `;
